@@ -1,0 +1,21 @@
+Package: y2maxdiff
+Type: Package
+Title: Analysis for choice based experiments
+Version: 0.0.1
+Authors@R: c(
+    person("Nick", "Moffitt", email = "nicksmoffitt@gmail.com", role = "aut"),
+    person('Megan', 'Gilchrist', email = 'megan@y2analytics.com', role = c("aut", "cre")),
+    person('Y2 Analytics', role = c('cph', 'fnd')))
+Description: Data manipulation and modeling for choice based experiments such as max diff and conjoint.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    magrittr,
+    rlang,
+    tidyr
+Suggests:
+    testthat (>= 3.0.0)
+RoxygenNote: 7.2.3
+Config/testthat/edition: 3
