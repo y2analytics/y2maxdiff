@@ -10,7 +10,7 @@
 run_respondents_logits <- function(
     exercise_row
 ) {
-  item_values(exercise_row)
+  item_values(exercise_row) + 1
 }
 
 
